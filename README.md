@@ -9,11 +9,7 @@ Matlab function to save multipage TIFF images to a single file.
 options.color: **true** or **FALSE**.
 If this is true, third dimension should be 3 and the data is saved as a color image.
 
-options.compress: **'no'**, **'lzw'**, **'jpeg'** or **'adobe'**. 
-'no': Uncompressed(Default)
-'lzw': lossless LZW
-'jpeg': lossy JPEG (When using JPEG compression, ImageWidth, ImageLength, and RowsPerStrip must be multiples of 16.)
-'adobe': lossless Adobe-style
+options.compress: **'no'**, **'lzw'**, **'jpeg'** or **'adobe'**. 'no': Uncompressed(Default). 'lzw': lossless LZW. 'jpeg': lossy JPEG (When using JPEG compression, ImageWidth, ImageLength, and RowsPerStrip must be multiples of 16.). 'adobe': lossless Adobe-style
 
 options.jpegquality: JPEG compression qualtiy. A value **between 1.0 and 100.0**  
 
